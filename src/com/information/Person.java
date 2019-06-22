@@ -16,7 +16,6 @@ public abstract class Person {
     private char gender;
     // 出生日期
     private Date birthday;
-    private String number;
 
     // Date类
     public class Date {
