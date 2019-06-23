@@ -15,46 +15,6 @@ public class Teacher extends Person {
 
     // getter setter
 
-    @Override
-    public String getName() {
-        return super.getName();
-    }
-
-    @Override
-    public void setName(String name) {
-        super.setName(name);
-    }
-
-    @Override
-    public int getId() {
-        return super.getId();
-    }
-
-    @Override
-    public void setId(int id) {
-        super.setId(id);
-    }
-
-    @Override
-    public char getGender() {
-        return super.getGender();
-    }
-
-    @Override
-    public void setGender(char gender) {
-        super.setGender(gender);
-    }
-
-    @Override
-    public Date getBirthday() {
-        return super.getBirthday();
-    }
-
-    @Override
-    public void setBirthday(Date birthday) {
-        super.setBirthday(birthday);
-    }
-
     public int getTeacherNo() {
         return teacherNo;
     }

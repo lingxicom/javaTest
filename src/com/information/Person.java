@@ -28,7 +28,6 @@ public abstract class Person {
     // 修改信息
     // getter setter
 
-
     public String getName() {
         return name;
     }
