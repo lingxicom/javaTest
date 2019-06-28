@@ -1,4 +1,4 @@
-package com.information;
+package com.model;
 
 /**
  * 从 Person 类派生出 Teacher（教师）类，添
@@ -37,5 +37,18 @@ public class Teacher extends Person {
 
     public void setDepartment(String department) {
         this.department = department;
+    }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "user_name=" + getUser_name() +
+                "id_=" + getId_() + '\'' +
+                "gender=" + getGender() + '\'' +
+                "birthday=" + getBirthday() + '\'' +
+                "teacherNo=" + teacherNo + '\'' +
+                ", schoolName='" + schoolName + '\'' +
+                ", department='" + department + '\'' +
+                '}';
     }
 }

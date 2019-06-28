@@ -1,4 +1,4 @@
-package com.information;
+package com.model;
 
 /**
  * 从 Student 类中派生出 UnderGraduate（本科生）类，添加属性：major

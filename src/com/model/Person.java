@@ -1,4 +1,6 @@
-package com.information;
+package com.model;
+
+import java.util.Date;
 
 /**
  * 设计一个 Person（人员）类，考虑到通用性，只抽象出所有类型人员都
@@ -9,46 +11,46 @@ package com.information;
  */
 public abstract class Person {
     // 姓名
-    private String name;
+    private String user_name;
     // 身份证号
-    private int id;
+    private int id_;
     // 性别
-    private char gender;
+    private String gender;
     // 出生日期
     private Date birthday;
 
     // Date类
-    public class Date {
-        private int year;
-        private int month;
-        private int day;
-    }
+//    public class Date {
+//        private int year;
+//        private int month;
+//        private int day;
+//    }
 
 
     // 修改信息
     // getter setter
 
-    public String getName() {
-        return name;
+    public String getUser_name() {
+        return user_name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
     }
 
-    public int getId() {
-        return id;
+    public int getId_() {
+        return id_;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId_(int id_) {
+        this.id_ = id_;
     }
 
-    public char getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
@@ -66,10 +68,10 @@ public abstract class Person {
     }
 
     // 有参构造方法
-    public Person(String name, int id, char gender, Date birthday) {
+    public Person(String user_name, int id_, String gender, Date birthday) {
         super();
-        this.name = name;
-        this.id = id;
+        this.user_name = user_name;
+        this.id_ = id_;
         this.gender = gender;
         this.birthday = birthday;
     }

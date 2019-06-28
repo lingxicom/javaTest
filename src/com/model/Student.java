@@ -1,4 +1,4 @@
-package com.information;
+package com.model;
 
 /**
  * 从 Person 类派生出 Student（学生）类，添加属性： studentNo（学号），

@@ -6,10 +6,11 @@ package com.connect;
 
 import java.sql.*;
 
-public class MysqlTest {
-    public static final String URL = "jdbc:mysql://localhost:3306/javatest";
+public class MysqlConnect {
+    public static final String URL = "jdbc:mysql://localhost:3306/javaTest";
     public static final String USER = "root";
     public static final String PASSWORD = "root";
+
     private static Connection conn = null;
 
     static {
@@ -19,8 +20,10 @@ public class MysqlTest {
             // 获取数据库连接
             conn = DriverManager.getConnection(URL, USER, PASSWORD);
         } catch (ClassNotFoundException e) {
+            System.out.println("驱动加载失败");
             e.printStackTrace();
         } catch (SQLException e) {
+            System.out.println("驱动加载失败");
             e.printStackTrace();
         }
     }
