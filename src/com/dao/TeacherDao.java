@@ -36,7 +36,6 @@ public class TeacherDao {
         ptmt.setString(7, t.getDepartment());
         // 调用execute方法执行
         ptmt.execute();
-
     }
 
     // 更新teacher
