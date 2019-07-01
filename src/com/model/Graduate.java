@@ -5,7 +5,7 @@ package com.model;
  * 究方向），adviserName（导师姓名）。
  */
 
-public class Gradute extends Student {
+public class Graduate extends Student {
     // 研究方向
     private String direction;
     // 导师姓名
@@ -27,5 +27,20 @@ public class Gradute extends Student {
 
     public void setAdviserName(String adviserName) {
         this.adviserName = adviserName;
+    }
+
+    @Override
+    public String toString() {
+         return "Graduate{" +
+                "user_name=" + getUser_name() +
+                "id_=" + getId_() + '\'' +
+                "gender=" + getGender() + '\'' +
+                "birthday=" + getBirthday() + '\'' +
+                "studentNo=" + getStudentNo() + '\'' +
+                ", school='" + getSchool() + '\'' +
+                ", class_='" + getClass_() + '\'' +
+                ", direction'" + direction + '\'' +
+                ", adviserName'" + adviserName + '\'' +
+                '}';
     }
 }

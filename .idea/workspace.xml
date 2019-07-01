@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a101af6d-82c4-4369-9c32-35868e2e710d" name="Default Changelist" comment="更新">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/action/TeacherAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dao/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/TestTeacherAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/view/View.java" afterDir="false" />
+    <list default="true" id="a101af6d-82c4-4369-9c32-35868e2e710d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/action/GraduateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dao/GraduateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dao/UnderGraduateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/TestGraduateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/view/GraduateView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/connect/MysqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/connect/MysqlConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/information/Gradute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Gradute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/information/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/information/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/information/TA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/TA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/information/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/information/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/information/UnderGraduate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/UnderGraduate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dao/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/TeacherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/model/Gradute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Graduate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/model/TA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/TA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/TestTeacherAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/TestTeacherAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/view/TeacherView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,59 +48,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/action/GraduateAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/TestGraduateAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/action/TeacherAction.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dao/GraduateDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+            <state relative-caret-position="-1165">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3046#3056#0" expanded="true" />
+                <element signature="e#3885#3895#0" expanded="true" />
+                <element signature="e#4655#4665#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dao/TeacherDao.java">
+        <entry file="file://$PROJECT_DIR$/src/com/view/TeacherView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1516">
-              <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+            <state relative-caret-position="1672">
+              <caret line="283" column="1" lean-forward="true" selection-start-line="283" selection-start-column="1" selection-end-line="283" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1793#1884#1" />
+                <element signature="e#2100#4094#1" />
+                <element signature="e#4321#6686#1" />
+                <element signature="e#6694#7090#1" />
+                <element signature="e#7256#7654#1" />
+                <element signature="e#7889#9552#1" />
+                <element signature="e#9716#10506#1" />
+                <element signature="e#10666#10752#1" />
+                <element signature="e#10917#11050#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/TestTeacherAction.java">
+        <entry file="file://$PROJECT_DIR$/src/com/view/GraduateView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="1026">
+              <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/view/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="254" column="14" lean-forward="true" selection-start-line="254" selection-start-column="14" selection-end-line="254" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2086#4063#1" />
-                <element signature="e#4319#6545#1" />
-                <element signature="e#6655#6693#1" />
-                <element signature="e#4250#4542#1" />
-                <element signature="e#7798#9389#1" />
-                <element signature="e#7983#8004#0" expanded="true" />
-                <element signature="e#8033#8049#0" expanded="true" />
-                <element signature="e#4864#5671#1" />
-                <element signature="e#10575#10613#1" />
-                <element signature="e#10706#10839#1" />
+                <element signature="e#1808#1900#1" />
+                <element signature="e#2120#4453#1" />
+                <element signature="e#4671#7310#1" />
+                <element signature="e#6734#7134#1" />
+                <element signature="e#7301#7700#1" />
+                <element signature="e#7937#9603#1" />
+                <element signature="e#8048#8069#0" expanded="true" />
+                <element signature="e#8128#8144#0" expanded="true" />
+                <element signature="e#9768#10560#1" />
+                <element signature="e#10686#10772#1" />
+                <element signature="e#10937#11070#1" />
               </folding>
             </state>
           </provider>
@@ -120,6 +140,20 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>teacher</find>
+      <find>t1</find>
+      <find>t</find>
+      <find>教师</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>graduate</replace>
+      <replace>g1</replace>
+      <replace>g</replace>
+      <replace>研究生</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,15 +181,23 @@
         <option value="$PROJECT_DIR$/src/com/connect/MysqlConnect.java" />
         <option value="$PROJECT_DIR$/src/com/View/view.java" />
         <option value="$PROJECT_DIR$/src/com/view/view.java" />
-        <option value="$PROJECT_DIR$/src/com/dao/TeacherDao.java" />
-        <option value="$PROJECT_DIR$/src/com/test/TestTeacherAction.java" />
         <option value="$PROJECT_DIR$/src/com/view/View.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/UnderGraduteDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/TeacherDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/GraduteDao.java" />
+        <option value="$PROJECT_DIR$/src/com/test/TestTeacherAction.java" />
+        <option value="$PROJECT_DIR$/src/com/action/GraduateAction.java" />
+        <option value="$PROJECT_DIR$/src/com/model/Graduate.java" />
+        <option value="$PROJECT_DIR$/src/com/test/TestGraduateAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/GraduateDao.java" />
+        <option value="$PROJECT_DIR$/src/com/view/TeacherView.java" />
+        <option value="$PROJECT_DIR$/src/com/view/GraduateView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -166,6 +208,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,25 +228,51 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561716168456" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561988079592" />
     <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J/5.1.47/mysql-connector-java-5.1.47.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -222,9 +292,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.View">
-    <configuration name="Modify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.modify.Modify" />
+  <component name="RunManager" selected="Application.GraduateView">
+    <configuration name="GraduateDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dao.GraduateDao" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
@@ -236,47 +306,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.action.TeacherAction" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.action.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeacherDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dao.TeacherDao" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTeacherAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.TestTeacherAction" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.view.View" />
+    <configuration name="GraduateView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.view.GraduateView" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
@@ -288,13 +319,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TeacherView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.view.TeacherView" />
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGraduateAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.TestGraduateAction" />
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnderGraduateDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dao.UnderGraduateDao" />
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.View" />
-        <item itemvalue="Application.TestTeacherAction" />
-        <item itemvalue="Application.TeacherAction" />
-        <item itemvalue="Application.TeacherDao" />
-        <item itemvalue="Application.Modify" />
+        <item itemvalue="Application.GraduateView" />
+        <item itemvalue="Application.TeacherView" />
+        <item itemvalue="Application.TestGraduateAction" />
+        <item itemvalue="Application.GraduateDao" />
+        <item itemvalue="Application.UnderGraduateDao" />
       </list>
     </recent_temporary>
   </component>
@@ -313,17 +383,28 @@
       <workItem from="1561379902631" duration="5221000" />
       <workItem from="1561447904780" duration="14360000" />
       <workItem from="1561536233010" duration="7213000" />
-      <workItem from="1561707929543" duration="8228000" />
+      <workItem from="1561707929543" duration="8281000" />
+      <workItem from="1561857997699" duration="8018000" />
+      <workItem from="1561980841581" duration="7176000" />
     </task>
+    <task id="LOCAL-00001" summary="更新">
+      <created>1561716188343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561716188343</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55505000" />
+    <option name="totallyTimeSpent" value="70752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17158177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17560321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,8 +413,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16756032" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.57972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.107238606" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7533512" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -341,9 +422,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3297587" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297587" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32573727" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.097855225" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.32573727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24896266" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,6 +433,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32918397" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,36 +454,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/information/ff.java" />
     <entry file="file://$PROJECT_DIR$/src/com/information/f.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/model/UnderGraduate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/model/Gradute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/model/TA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -449,42 +500,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/connect/MysqlConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/javaTest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/model/Teacher.java">
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/4a445f6c-7d67-41b4-aeaa-2d0dca8508c2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/UnderGraduateDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_5509117d0001684f00000000.zip/jdbc_imooc/src/com/imooc/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="52" column="80" lean-forward="true" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="157">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#633#634#0" expanded="true" />
             <element signature="e#665#666#0" expanded="true" />
@@ -496,52 +537,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/TestTeacherAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/model/UnderGraduate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="171">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/connect/MysqlConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dao/TeacherDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1516">
-          <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+        <state relative-caret-position="581">
+          <caret line="181" column="37" lean-forward="true" selection-start-line="181" selection-start-column="37" selection-end-line="181" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/com/model/Graduate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="254" column="14" lean-forward="true" selection-start-line="254" selection-start-column="14" selection-end-line="254" selection-end-column="14" />
+        <state relative-caret-position="532">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="51" column="20" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/TestTeacherAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2086#4063#1" />
-            <element signature="e#4319#6545#1" />
-            <element signature="e#6655#6693#1" />
-            <element signature="e#4250#4542#1" />
-            <element signature="e#7798#9389#1" />
-            <element signature="e#7983#8004#0" expanded="true" />
-            <element signature="e#8033#8049#0" expanded="true" />
-            <element signature="e#4864#5671#1" />
-            <element signature="e#10575#10613#1" />
-            <element signature="e#10706#10839#1" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/action/TeacherAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        <state relative-caret-position="96">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_5509117d0001684f00000000.zip/jdbc_imooc/src/com/imooc/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/view/TeacherView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="283" column="1" lean-forward="true" selection-start-line="283" selection-start-column="1" selection-end-line="283" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1793#1884#1" />
+            <element signature="e#2100#4094#1" />
+            <element signature="e#4321#6686#1" />
+            <element signature="e#6694#7090#1" />
+            <element signature="e#7256#7654#1" />
+            <element signature="e#7889#9552#1" />
+            <element signature="e#9716#10506#1" />
+            <element signature="e#10666#10752#1" />
+            <element signature="e#10917#11050#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/view/GraduateView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1808#1900#1" />
+            <element signature="e#2120#4453#1" />
+            <element signature="e#4671#7310#1" />
+            <element signature="e#6734#7134#1" />
+            <element signature="e#7301#7700#1" />
+            <element signature="e#7937#9603#1" />
+            <element signature="e#8048#8069#0" expanded="true" />
+            <element signature="e#8128#8144#0" expanded="true" />
+            <element signature="e#9768#10560#1" />
+            <element signature="e#10686#10772#1" />
+            <element signature="e#10937#11070#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/action/GraduateAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/TestGraduateAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/GraduateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1165">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3046#3056#0" expanded="true" />
+            <element signature="e#3885#3895#0" expanded="true" />
+            <element signature="e#4655#4665#0" expanded="true" />
           </folding>
         </state>
       </provider>
