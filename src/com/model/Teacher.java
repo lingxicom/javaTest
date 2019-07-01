@@ -11,7 +11,7 @@ public class Teacher extends Person {
     // 学校
     private String schoolName;
     // 部门
-    private String department;
+    private String department ;
 
     // getter setter
 

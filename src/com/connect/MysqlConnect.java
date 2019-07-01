@@ -7,7 +7,7 @@ package com.connect;
 import java.sql.*;
 
 public class MysqlConnect {
-    public static final String URL = "jdbc:mysql://localhost:3306/javaTest";
+    public static final String URL = "jdbc:mysql://localhost:3306/javatest";
     public static final String USER = "root";
     public static final String PASSWORD = "root";
 
@@ -16,7 +16,7 @@ public class MysqlConnect {
     static {
         try {
             // 加载驱动程序
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             // 获取数据库连接
             conn = DriverManager.getConnection(URL, USER, PASSWORD);
         } catch (ClassNotFoundException e) {

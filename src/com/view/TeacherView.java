@@ -12,7 +12,7 @@ import java.util.*;
  * 用户交互
  */
 
-public class View {
+public class TeacherView {
 
     // 提示语
     private static final String CONTEXT = "教师服务系统 \n" +
@@ -63,7 +63,7 @@ public class View {
                     OPERATION_ADD.substring(0, 1).equals(in.toUpperCase())
                     || OPERATION_ADD.equals(prenious)) {
                 prenious = OPERATION_ADD;
-                if (1 == step ) {
+                if (1 == step) {
                     System.out.println("请输入教师的[姓名]");
                 } else if (2 == step) {
                     teacher.setUser_name(in);
@@ -92,14 +92,16 @@ public class View {
                 } else if (7 == step) {
                     teacher.setSchoolName(in);
                     System.out.println("请输入教师的[部门]");
-                } else if(8 == step) {
+                } else if (8 == step) {
                     teacher.setDepartment(in);
                     try {
                         tactin.add(teacher);
                         System.out.println("添加教师信息成功！！");
+                        prenious = null;
                     } catch (Exception e) {
                         e.printStackTrace();
                         System.out.println("添加教师信息失败！！");
+                        prenious = null;
                     }
                 }
                 if (OPERATION_ADD.equals(prenious)) {
@@ -111,12 +113,12 @@ public class View {
                     OPERATION_UPDATE.substring(0, 1).equals(in.toUpperCase())
                     || OPERATION_UPDATE.equals(prenious)) {
                 prenious = OPERATION_UPDATE;
-                if (1 == step ) {
+                if (1 == step) {
                     System.out.println("请输入要修改教师的[教师号]");
                 } else if (2 == step) {
                     try {
                         teacher = tactin.get(Integer.valueOf(in));
-                        System.out.println("请输入要教师的[姓名]");
+                        System.out.println("请输入要修改的教师的[姓名]");
                     } catch (Exception e) {
                         e.printStackTrace();
                         System.out.println("请输入正确的教师号哦~");
@@ -145,14 +147,16 @@ public class View {
                 } else if (7 == step) {
                     teacher.setSchoolName(in);
                     System.out.println("请输入教师的[部门]");
-                } else if(8 == step) {
+                } else if (8 == step) {
                     teacher.setDepartment(in);
                     try {
                         tactin.edit(teacher);
                         System.out.println("修改教师信息成功！！");
+                        prenious = null;
                     } catch (Exception e) {
                         e.printStackTrace();
                         System.out.println("修改教师信息失败！！");
+                        prenious = null;
                     }
                 }
                 if (OPERATION_UPDATE.equals(prenious)) {
@@ -161,7 +165,7 @@ public class View {
             }
             // 删除教师信息
             else if (OPERATION_DELETE.equals(in.toUpperCase()) ||
-                    OPERATION_DELETE.substring(0, 1).equals(in.toUpperCase())){
+                    OPERATION_DELETE.substring(0, 1).equals(in.toUpperCase())) {
                 System.out.println("请输入要查询的教师的[教师号]");
                 try {
                     Integer no = new Integer(scan.nextInt());
@@ -205,10 +209,10 @@ public class View {
                     param.put("name", "teacherNo");
                     param.put("rela", "=");
                     param.put("value", in);
-                    params.add(param);
+                    params. add(param);
                     try {
                         List<Teacher> list = tactin.query(params);
-                        if (list.size() == 0){
+                        if (list.size() == 0) {
                             System.out.println("查询失败！！！");
                             continue;
                         }
@@ -233,15 +237,15 @@ public class View {
                     OPERATION_GET.substring(0, 1).equals(in.toUpperCase())) {
                 // 循环查询
                 String y_n = "y";
-                while (y_n.equals("y")){
+                while (y_n.equals("y")) {
                     System.out.println("请输入该教师的[教师号]");
                     int teacherNo = scan.nextInt();
                     try {
                         Teacher te = tactin.get(teacherNo);
                         System.out.println(te.toString());
                         System.out.println("是否要继续查询(y/n)");
-                        y_n  =scan.next();
-                        if (y_n.equals("n")){
+                        y_n = scan.next();
+                        if (y_n.equals("n")) {
                             System.out.println("已退出该功能！！！");
                         }
                     } catch (Exception e) {
@@ -252,7 +256,7 @@ public class View {
             }
             // 主菜单
             else if (OPERATION_MAIN.equals(in.toUpperCase()) ||
-                    OPERATION_MAIN.substring(0, 1).equals(in.toUpperCase())){
+                    OPERATION_MAIN.substring(0, 1).equals(in.toUpperCase())) {
                 System.out.println(CONTEXT);
                 continue;
             }

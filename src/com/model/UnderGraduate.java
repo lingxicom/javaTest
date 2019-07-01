@@ -18,4 +18,17 @@ public class UnderGraduate extends Student {
     public void setMajor(String major) {
         this.major = major;
     }
+    @Override
+    public String toString() {
+        return "UnderGraduate{" +
+                "user_name=" + getUser_name() +
+                "id_=" + getId_() + '\'' +
+                "gender=" + getGender() + '\'' +
+                "birthday=" + getBirthday() + '\'' +
+                "studentNo=" + getStudentNo() + '\'' +
+                ", school='" + getSchool()  + '\'' +
+                ", class_='" + getClass_() + '\'' +
+                ", major='" + major + '\'' +
+                '}';
+    }
 }
