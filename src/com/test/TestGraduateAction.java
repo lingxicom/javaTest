@@ -26,14 +26,14 @@ public class TestGraduateAction {
         g1.setDirection("软件工程");
         g1.setAdviserName("李老师");
         // 添加
-//        action.add(g1);
+        action.add(g1);
 
         // 查询
-//        List<Graduate> result = action.query();
-//        for (int i = 0; i < result.size(); i++) {
-//            System.out.println(result.get(i).getUser_name() +
-//                    ":" + result.get(i).getId_() + ":" + result.get(i).getStudentNo());
-//        }
+        List<Graduate> result = action.query();
+        for (int i = 0; i < result.size(); i++) {
+            System.out.println(result.get(i).getUser_name() +
+                    ":" + result.get(i).getId_() + ":" + result.get(i).getStudentNo());
+        }
 
         // 更新
 //        action.edit(g1);
