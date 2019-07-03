@@ -41,14 +41,12 @@ public class Teacher extends Person {
 
     @Override
     public String toString() {
-        return "Teacher{" +
-                "user_name=" + getUser_name() +
-                "id_=" + getId_() + '\'' +
-                "gender=" + getGender() + '\'' +
-                "birthday=" + getBirthday() + '\'' +
-                "teacherNo=" + teacherNo + '\'' +
-                ", schoolName='" + schoolName + '\'' +
-                ", department='" + department + '\'' +
-                '}';
+        return "姓名：" + getUser_name() + '\n' +
+                "身份证号：" + getId_() + '\n' +
+                "性别：" + getGender() + '\n' +
+                "生日：" + getBirthday() + '\n' +
+                "教师号：" + teacherNo + '\n' +
+                "学校：" + schoolName + '\n' +
+                "部门：" + department + '\n';
     }
 }

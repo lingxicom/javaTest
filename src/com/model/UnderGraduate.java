@@ -20,15 +20,13 @@ public class UnderGraduate extends Student {
     }
     @Override
     public String toString() {
-        return "UnderGraduate{" +
-                "user_name=" + getUser_name() +
-                "id_=" + getId_() + '\'' +
-                "gender=" + getGender() + '\'' +
-                "birthday=" + getBirthday() + '\'' +
-                "studentNo=" + getStudentNo() + '\'' +
-                ", school='" + getSchool()  + '\'' +
-                ", class_='" + getClass_() + '\'' +
-                ", major='" + major + '\'' +
-                '}';
+        return  "姓名：" + getUser_name() + '\n' +
+                "身份证号：" + getId_() + '\n' +
+                "性别：" + getGender() + '\n' +
+                "生日：" + getBirthday() + '\n' +
+                "学号：" + getStudentNo() + '\n' +
+                "学校：" + getSchool() + '\n' +
+                "班级：" + getClass_() + '\n' +
+                "专业：" + major;
     }
 }

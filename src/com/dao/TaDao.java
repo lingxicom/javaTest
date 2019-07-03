@@ -47,8 +47,8 @@ public class TaDao {
         Connection conn = MysqlConnect.getConnnection();
         // sql语句
         String sql = "" +
-                " update  graduate " +
-                " set user_name = ?, id_ = ?, gender = ?, birthday = ?, school = ?, class_ = ?, direction = ?, adviserName = ? teacherNo = ? schoolName = ? department = ? " +
+                " update ta " +
+                " set user_name = ?, id_ = ?, gender = ?, birthday = ?, school = ?, class_ = ?, direction = ?, adviserName = ?, teacherNo = ?, schoolName = ?, department = ? " +
                 " where studentNo = ? ";
         // 预编译sql语句
         PreparedStatement ptmt = conn.prepareStatement(sql);
