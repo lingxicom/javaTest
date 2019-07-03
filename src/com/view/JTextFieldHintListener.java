@@ -36,5 +36,4 @@ public class JTextFieldHintListener implements FocusListener {
         }
 
     }
-
 }

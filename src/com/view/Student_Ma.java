@@ -18,6 +18,22 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Student_Ma extends JFrame {
+
+
+    //设置面板背景
+    ImageIcon backgrond = new ImageIcon("C:\\Users\\15131\\IdeaProjects\\javaTest\\src\\com\\view\\9dba8adef501079a0d345904a6bc4372.jpeg");
+    JLabel back_lable = new JLabel(backgrond);
+    JPanel mypanel = new JPanel();
+
+    ImageIcon backgrond1 = new ImageIcon("C:\\Users\\15131\\IdeaProjects\\javaTest\\src\\com\\view\\3jpeg.jpeg");
+    JLabel back_lable1 = new JLabel(backgrond1);
+    JPanel mypanel1 = new JPanel();
+
+    ImageIcon backgrond2 = new ImageIcon("C:\\Users\\15131\\IdeaProjects\\javaTest\\src\\com\\view\\4.jpeg");
+    JLabel back_lable2 = new JLabel(backgrond2);
+    JPanel mypanel2 = new JPanel();
+
+
     JFrame frm = new JFrame("学生管理系统");
     JFrame frm_delete = new JFrame("信息删除");
     JFrame newjrm = new JFrame("本科生信息查询");
@@ -50,6 +66,15 @@ public class Student_Ma extends JFrame {
     public Student_Ma() {
 
         //
+
+        back_lable.setBounds(0, 0, 500, 300);
+        mypanel = (JPanel) frm.getContentPane();
+        mypanel.setOpaque(false);
+        mypanel.setLayout(new FlowLayout());
+        frm.getLayeredPane().setLayout(null);
+        frm.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
+
         frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //        JPanel bottomjpanel = new JPanel();
 //        frm.add(bottomjpanel,BorderLayout.CENTER);
@@ -128,6 +153,14 @@ public class Student_Ma extends JFrame {
         jm_3_1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_yanstu.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_yanstu.getLayeredPane().setLayout(null);
+                frm_yanstu.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
                 //创建新的窗口
 
                 JPanel toppanel = new JPanel();
@@ -199,6 +232,15 @@ public class Student_Ma extends JFrame {
         jm_3_2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable1.setBounds(0, 0, 500, 700);
+                mypanel1 = (JPanel) frm_yanstu_add.getContentPane();
+                mypanel1.setOpaque(false);
+                mypanel1.setLayout(new FlowLayout());
+                frm_yanstu_add.getLayeredPane().setLayout(null);
+                frm_yanstu_add.getLayeredPane().add(back_lable1, new Integer(Integer.MIN_VALUE));
+
+
                 frm_yanstu_add.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frm_yanstu_add.setBounds(400, 250, 500, 700);
                 frm_yanstu_add.setLayout(null);
@@ -387,6 +429,14 @@ public class Student_Ma extends JFrame {
         jm_3_3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_yanstu_delete.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_yanstu_delete.getLayeredPane().setLayout(null);
+                frm_yanstu_delete.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
                 frm_yanstu_delete.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frm_yanstu_delete.setBounds(400, 250, 500, 400);
                 frm_yanstu_delete.setLayout(null);
@@ -456,6 +506,14 @@ public class Student_Ma extends JFrame {
         jm_3_4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_yanstu_change.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_yanstu_change.getLayeredPane().setLayout(null);
+                frm_yanstu_change.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
                 frm_yanstu_change.setBounds(800, 400, 500, 400);
                 frm_yanstu_change.setLayout(null);
                 JLabel jl_1 = new JLabel("输入要修改的研究生的学号:");
@@ -518,6 +576,14 @@ public class Student_Ma extends JFrame {
                         jb_1.addActionListener(new ActionListener() {
                             @Override
                             public void actionPerformed(ActionEvent e) {
+
+                                back_lable1.setBounds(0, 0, 500, 700);
+                                mypanel1 = (JPanel) frm_update.getContentPane();
+                                mypanel1.setOpaque(false);
+                                mypanel1.setLayout(new FlowLayout());
+                                frm_update.getLayeredPane().setLayout(null);
+                                frm_update.getLayeredPane().add(back_lable1, new Integer(Integer.MIN_VALUE));
+
                                 frm_update.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                                 frm_update.setBounds(400, 250, 500, 700);
                                 frm_update.setLayout(null);
@@ -722,6 +788,14 @@ public class Student_Ma extends JFrame {
         jm_2_1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_teachear.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_teachear.getLayeredPane().setLayout(null);
+                frm_teachear.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
                 //创建新的窗口
 
                 JPanel toppanel = new JPanel();
@@ -792,6 +866,14 @@ public class Student_Ma extends JFrame {
         jm_2_2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable1.setBounds(0, 0, 500, 700);
+                mypanel1 = (JPanel) frm_teacher_add.getContentPane();
+                mypanel1.setOpaque(false);
+                mypanel1.setLayout(new FlowLayout());
+                frm_teacher_add.getLayeredPane().setLayout(null);
+                frm_teacher_add.getLayeredPane().add(back_lable1, new Integer(Integer.MIN_VALUE));
+
                 frm_add.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frm_teacher_add.setBounds(400, 250, 500, 700);
                 frm_teacher_add.setLayout(null);
@@ -956,6 +1038,14 @@ public class Student_Ma extends JFrame {
         jm_2_3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_teachear_delete.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_teachear_delete.getLayeredPane().setLayout(null);
+                frm_teachear_delete.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
                 frm_teachear_delete.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frm_teachear_delete.setBounds(400, 250, 500, 400);
                 frm_teachear_delete.setLayout(null);
@@ -1025,6 +1115,14 @@ public class Student_Ma extends JFrame {
         jm_2_4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_teacher_change.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_teacher_change.getLayeredPane().setLayout(null);
+                frm_teacher_change.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
                 frm_teacher_change.setBounds(800, 400, 500, 400);
                 frm_teacher_change.setLayout(null);
                 JLabel jl_1 = new JLabel("输入要修改的教师的教师号:");
@@ -1085,6 +1183,14 @@ public class Student_Ma extends JFrame {
                         jb_1.addActionListener(new ActionListener() {
                             @Override
                             public void actionPerformed(ActionEvent e) {
+
+                                back_lable1.setBounds(0, 0, 500, 700);
+                                mypanel1 = (JPanel) frm_update.getContentPane();
+                                mypanel1.setOpaque(false);
+                                mypanel1.setLayout(new FlowLayout());
+                                frm_update.getLayeredPane().setLayout(null);
+                                frm_update.getLayeredPane().add(back_lable1, new Integer(Integer.MIN_VALUE));
+
                                 frm_update.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                                 frm_update.setBounds(400, 250, 500, 700);
                                 frm_update.setLayout(null);
@@ -1268,8 +1374,15 @@ public class Student_Ma extends JFrame {
         jm_1_1.addActionListener(new ActionListener() {                          //本科生查询的监听事件
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) newjrm.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                newjrm.getLayeredPane().setLayout(null);
+                newjrm.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
                 //创建新的窗口
-                JFrame newjrm = new JFrame("本科生信息查询");
                 JPanel toppanel = new JPanel();
                 newjrm.add(toppanel, BorderLayout.NORTH);
 
@@ -1338,6 +1451,14 @@ public class Student_Ma extends JFrame {
         jm_1_2.addActionListener(new ActionListener() {                             //本科生信息添加的信息监听事件
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable1.setBounds(0, 0, 500, 700);
+                mypanel1 = (JPanel) frm_add.getContentPane();
+                mypanel1.setOpaque(false);
+                mypanel1.setLayout(new FlowLayout());
+                frm_add.getLayeredPane().setLayout(null);
+                frm_add.getLayeredPane().add(back_lable1, new Integer(Integer.MIN_VALUE));
+
                 //创建新的窗口
 
                 frm_add.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -1518,6 +1639,15 @@ public class Student_Ma extends JFrame {
 
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_delete.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_delete.getLayeredPane().setLayout(null);
+                frm_delete.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
+
                 frm_delete.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frm_delete.setBounds(400, 250, 500, 400);
                 frm_delete.setLayout(null);
@@ -1587,6 +1717,14 @@ public class Student_Ma extends JFrame {
         jm_1_4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_change.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_change.getLayeredPane().setLayout(null);
+                frm_change.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
                 frm_change.setBounds(800, 400, 500, 400);
                 frm_change.setLayout(null);
                 JLabel jl_1 = new JLabel("输入要修改的本科生的学号:");
@@ -1648,6 +1786,14 @@ public class Student_Ma extends JFrame {
                         jb_1.addActionListener(new ActionListener() {
                             @Override
                             public void actionPerformed(ActionEvent e) {
+
+                                back_lable1.setBounds(0, 0, 500, 700);
+                                mypanel1 = (JPanel) frm_update.getContentPane();
+                                mypanel1.setOpaque(false);
+                                mypanel1.setLayout(new FlowLayout());
+                                frm_update.getLayeredPane().setLayout(null);
+                                frm_update.getLayeredPane().add(back_lable1, new Integer(Integer.MIN_VALUE));
+
                                 frm_update.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                                 frm_update.setBounds(400, 250, 500, 700);
                                 frm_update.setLayout(null);
@@ -1841,6 +1987,15 @@ public class Student_Ma extends JFrame {
         jm_4_1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_ta.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_ta.getLayeredPane().setLayout(null);
+                frm_ta.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
+
                 //创建新的窗口
 
                 JPanel toppanel = new JPanel();
@@ -1912,6 +2067,15 @@ public class Student_Ma extends JFrame {
         jm_4_2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable2.setBounds(0, 0, 500, 800);
+                mypanel2 = (JPanel) frm_ta_add.getContentPane();
+                mypanel2.setOpaque(false);
+                mypanel2.setLayout(new FlowLayout());
+                frm_ta_add.getLayeredPane().setLayout(null);
+                frm_ta_add.getLayeredPane().add(back_lable2, new Integer(Integer.MIN_VALUE));
+
+
                 frm_ta_add.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frm_ta_add.setBounds(400, 250, 500, 800);
                 frm_ta_add.setLayout(null);
@@ -2135,6 +2299,15 @@ public class Student_Ma extends JFrame {
         jm_4_3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_ta_delete.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_ta_delete.getLayeredPane().setLayout(null);
+                frm_ta_delete.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
+
                 frm_ta_delete.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frm_ta_delete.setBounds(400, 250, 500, 400);
                 frm_ta_delete.setLayout(null);
@@ -2204,6 +2377,15 @@ public class Student_Ma extends JFrame {
         jm_4_4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                back_lable.setBounds(0, 0, 500, 400);
+                mypanel = (JPanel) frm_ta_change.getContentPane();
+                mypanel.setOpaque(false);
+                mypanel.setLayout(new FlowLayout());
+                frm_ta_change.getLayeredPane().setLayout(null);
+                frm_ta_change.getLayeredPane().add(back_lable, new Integer(Integer.MIN_VALUE));
+
+
                 frm_ta_change.setBounds(800, 400, 500, 400);
                 frm_ta_change.setLayout(null);
                 JLabel jl_1 = new JLabel("输入要修改的助教博士生的学号:");
@@ -2269,6 +2451,14 @@ public class Student_Ma extends JFrame {
                         jb_1.addActionListener(new ActionListener() {
                             @Override
                             public void actionPerformed(ActionEvent e) {
+
+                                back_lable1.setBounds(0, 0, 500, 700);
+                                mypanel1 = (JPanel) frm_ta.getContentPane();
+                                mypanel1.setOpaque(false);
+                                mypanel1.setLayout(new FlowLayout());
+                                frm_ta.getLayeredPane().setLayout(null);
+                                frm_ta.getLayeredPane().add(back_lable1, new Integer(Integer.MIN_VALUE));
+
                                 frm_ta.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                                 frm_ta.setBounds(400, 250, 500, 700);
                                 frm_ta.setLayout(null);
